@@ -17,6 +17,7 @@ steps:
   - '$_REGION'
   - '--platform'
   - 'managed'
+  - '--allow-unauthenticated'
 substitutions:
   _IMAGE: 'cloud-build-sample-go'
   _SERVICE_NAME: 'cloud-build-sample-service'
